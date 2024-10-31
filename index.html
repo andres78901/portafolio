@@ -1,199 +1,306 @@
 <html>
+  <head>
+    <title>Portfolio de Desarrollador Web</title>
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="web/icons8-favicon-pulsar-gradient-32.png"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stile.css" />
+    <link rel="stylesheet" href="css/stiles.css" />
+    <link rel="stylesheet" href="css/Button.css" />
+  </head>
 
-<head>
-  <title>Portfolio de Desarrollador Web</title>
-  <link type="image/png" sizes="32x32" rel="icon" href="web/icons8-favicon-pulsar-gradient-32.png">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/stile.css">
-</head>
-
-<body>
-  <header>
-    <div class="header-bg">
-      <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <defs>
-          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:rgb(52,152,219);stop-opacity:1" />
-            <stop offset="100%" style="stop-color:rgb(44,62,80);stop-opacity:1" />
-          </linearGradient>
-        </defs>
-        <path d="M0 0 L50 100 L100 0 Z" fill="url(#grad)"></path>
-      </svg>
-    </div>
-    <div class="header-content">
-      <h1>Andres Lopez</h1>
-      <p>Desarrollador Full Stack</p>
-    </div>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="#sobre-mi">Sobre Mí</a></li>
-      <li><a href="#proyectos">Proyectos</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <section id="sobre-mi">
-      <h2>Sobre Mí</h2>
-      <p>Ingeniero de Sistemas con amplia experiencia en el diseño, desarrollo e implementación de soluciones
-        tecnológicas avanzadas. Especializado en plataformas cloud con experiencia avanzada en Azure, incluyendo el
-        desarrollo de aplicaciones backend e implementación de microservicios. Experto en administración de aplicaciones
-        como SharePoint, gestión de máquinas virtuales y contenedores, así como en la automatización de procesos en
-        sistemas operativos (Windows Server y Linux) y en flujos CI/CD y gestión de artefactos en Azure.
-
-        Competente en una variedad de lenguajes de programación, incluyendo PHP, C#, Node.js, Java, Kotlin, Swift (iOS),
-        Apache Cordova, React Native, y Angular (incluyendo Ionic). Además, posee un profundo conocimiento en bases de
-        datos relacionales como Oracle, PostgreSQL, MySQL, y MariaDB.
-
-        Destaca por su enfoque en la orientación a resultados, innovación continua y capacidad analítica, siempre con
-        una fuerte orientación hacia la mejora continua y el servicio al cliente. Familiarizado con metodologías ágiles
-        como Scrum, ha demostrado su habilidad para liderar y crecer en proyectos de software a medida.
-        Lista de tecnologías.
-      </p>
-    </section>
-
-    <section id="proyectos">
-      <h2>Proyectos</h2>
-      <div class="projects">
-        <div class="project-card">
-          <img src="img/epm.jpg" alt="Captura de pantalla de una aplicación de comercio electrónico" width="640"
-            height="480">
-          <div class="content">
-            <h3>Estamos ahí</h3>
-            <p>Aplicación de gestión interna, reportes y tramites, para la compañía EPM, desarrollada en IOS.</p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="img/epm.jpg" alt="Captura de pantalla de una aplicación de comercio electrónico" width="640"
-            height="480">
-          <div class="content">
-            <h3>Mi Bitacora Express</h3>
-            <p>Aplicación dedicada al consumo de listas de SharePoint, reporte de tiempos y autenticación con el
-              directorio activo con doble factor de autenticación</p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="img/esmax.jpg" alt="Captura de pantalla de un tablero de gestión de tareas" width="640"
-            height="480">
-          <div class="content">
-            <h3>Pasarela de pago</h3>
-            <p>Aplicación de desarrollada para el manejo de eventos en estaciones de combustible, esta aplicación se
-              desarrollo en Android</p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="img/sura.jpg" alt="Captura de pantalla de una aplicación de pronóstico del tiempo" width="640"
-            height="480">
-          <div class="content">
-            <h3>SharePoint</h3>
-            <p>Administración y soporte de aplicaciones internas alojadas dentro del SharePoint de Sura, tecnologías
-              utilizadas React JS y gestor de bibliotecas de SharePoint</p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="img/ecopetrol.jpg" alt="Captura de pantalla de una aplicación de pronóstico del tiempo" width="640"
-            height="480">
-          <div class="content">
-            <h3>Front Door</h3>
-            <p>Aplicativo dedicado para hacer cumplir las políticas de ciberseguridad.</p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="img/ecopetrol.jpg" alt="Captura de pantalla de una aplicación de pronóstico del tiempo" width="640"
-            height="480">
-          <div class="content">
-            <h3>Datos Maestros</h3>
-            <p>Herramienta dedicada a la administración de datos, materiales y rastreo de automotores dentro de los
-              pozos.</p>
-          </div>
-        </div>
+  <body>
+    <header>
+      <div class="header-bg">
+        <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
+          <defs>
+            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop
+                offset="0%"
+                style="stop-color: rgb(52, 152, 219); stop-opacity: 1"
+              />
+              <stop
+                offset="100%"
+                style="stop-color: rgb(44, 62, 80); stop-opacity: 1"
+              />
+            </linearGradient>
+          </defs>
+          <path d="M0 0 L50 100 L100 0 Z" fill="url(#grad)"></path>
+        </svg>
       </div>
-    </section>
-
-    <section id="habilidades">
-      <h2>Habilidades</h2>
-      <div class="skills">
-        <span class="skill">HTML5</span>
-        <span class="skill">CSS3</span>
-        <span class="skill">JavaScript</span>
-        <span class="skill">React Js</span>
-        <span class="skill">Node.js</span>
-        <span class="skill">Express</span>
-        <span class="skill">Git hub</span>
-        <span class="skill">C#</span>
-        <span class="skill">PHP</span>
-        <span class="skill">Kotlin - android</span>
-        <span class="skill">Swift - Ios</span>
-        <span class="skill">React Native</span>
-        <span class="skill">Angular</span>
-        <span class="skill">Ionic</span>
-        <span class="skill">Phongap</span>
-        <span class="skill">Apache Cordova</span>
-        <span class="skill">MySql</span>
-        <span class="skill">MariaDB</span>
-        <span class="skill">Oracle 11g</span>
-        <span class="skill">PostgreSQL</span>
-        <span class="skill">Sql Server</span>
-        <span class="skill">Azure - Front Door</span>
-        <span class="skill">Azure - Pipellines CI-CD</span>
+      <div class="header-content">
+        <h1>Andres Lopez</h1>
+        <p>Desarrollador Full Stack</p>
       </div>
-    </section>
+    </header>
 
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <p>¿Interesado en trabajar juntos? ¡Contáctame!</p>
+    <nav>
       <ul>
-        <li>Email:
-          <a href="mailto:andres.lopez7890@gmail.com" target="_blank" class="linkEdit">andres.lopez7890@gmail.com</a>
-        </li>
-        <li>LinkedIn:
-          <a href="https://www.linkedin.com/in/andresfernandolopezrodriguez128213b5/" target="_blank"
-            class="linkEdit">linkedin.com/in/andreslopez</a>
-        </li>
-        <li>GitHub:
-          <a href="https://github.com/andres78901" class="linkEdit" target="_blank">github.com/andres78901</a>
-        </li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
-    </section>
-  </main>
+    </nav>
 
-  <footer>
-    <p>&copy; 2024 Andres Lopez. Todos los derechos reservados.</p>
-  </footer>
+    <main>
+      <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>
+          Ingeniero de Sistemas con amplia experiencia en el diseño, desarrollo
+          e implementación de soluciones tecnológicas avanzadas. Especializado
+          en plataformas cloud con experiencia avanzada en Azure, incluyendo el
+          desarrollo de aplicaciones backend e implementación de microservicios.
+          Experto en administración de aplicaciones como SharePoint, gestión de
+          máquinas virtuales y contenedores, así como en la automatización de
+          procesos en sistemas operativos (Windows Server y Linux) y en flujos
+          CI/CD y gestión de artefactos en Azure. Competente en una variedad de
+          lenguajes de programación, incluyendo PHP, C#, Node.js, Java, Kotlin,
+          Swift (iOS), Apache Cordova, React Native, y Angular (incluyendo
+          Ionic). Además, posee un profundo conocimiento en bases de datos
+          relacionales como Oracle, PostgreSQL, MySQL, y MariaDB. Destaca por su
+          enfoque en la orientación a resultados, innovación continua y
+          capacidad analítica, siempre con una fuerte orientación hacia la
+          mejora continua y el servicio al cliente. Familiarizado con
+          metodologías ágiles como Scrum, ha demostrado su habilidad para
+          liderar y crecer en proyectos de software a medida. Lista de
+          tecnologías.
+        </p>
+      </section>
 
-  <script>
-    // Animación suave del scroll
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="projects">
+          <div class="card">
+            <div class="container">
+              <div class="project-card">
+                <img
+                  src="img/epm.jpg"
+                  alt="Captura de pantalla de una aplicación de comercio electrónico"
+                  width="640"
+                  height="480"
+                />
+                <div class="content">
+                  <h3>Estamos ahí</h3>
+                  <p>
+                    Aplicación de gestión interna, reportes y tramites, para la
+                    compañía EPM, desarrollada en IOS.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <div class="project-card">
+                <img
+                  src="img/epm.jpg"
+                  alt="Captura de pantalla de una aplicación de comercio electrónico"
+                  width="640"
+                  height="480"
+                />
+                <div class="content">
+                  <h3>Mi Bitacora Express</h3>
+                  <p>
+                    Aplicación dedicada al consumo de listas de SharePoint,
+                    reporte de tiempos y autenticación con el directorio activo
+                    con doble factor de autenticación
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <div class="project-card">
+                <img
+                  src="img/esmax.jpg"
+                  alt="Captura de pantalla de un tablero de gestión de tareas"
+                  width="640"
+                  height="480"
+                />
+                <div class="content">
+                  <h3>Pasarela de pago</h3>
+                  <p>
+                    Aplicación de desarrollada para el manejo de eventos en
+                    estaciones de combustible, esta aplicación se desarrollo en
+                    Android
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <div class="project-card">
+                <img
+                  src="img/sura.jpg"
+                  alt="Captura de pantalla de una aplicación de pronóstico del tiempo"
+                  width="640"
+                  height="480"
+                />
+                <div class="content">
+                  <h3>SharePoint</h3>
+                  <p>
+                    Administración y soporte de aplicaciones internas alojadas
+                    dentro del SharePoint de Sura, tecnologías utilizadas React
+                    JS y gestor de bibliotecas de SharePoint
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <div class="project-card">
+                <img
+                  src="img/ecopetrol.jpg"
+                  alt="Captura de pantalla de una aplicación de pronóstico del tiempo"
+                  width="640"
+                  height="480"
+                />
+                <div class="content">
+                  <h3>Front Door</h3>
+                  <p>
+                    ADesarrollo de un aplicativo utilizando Azure Front Door
+                    para asegurar el cumplimiento de las políticas de
+                    ciberseguridad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <div class="project-card">
+                <img
+                  src="img/ecopetrol.jpg"
+                  alt="Captura de pantalla de una aplicación de pronóstico del tiempo"
+                  width="640"
+                  height="480"
+                />
+                <div class="content">
+                  <h3>Datos Maestros</h3>
+                  <p>
+                    Herramienta dedicada a la administración de datos,
+                    materiales y rastreo de automotores dentro de los pozos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="skills">
+          <button >HTML5</button>
+          <button >CSS3</button>
+          <button >JavaScript</button>
+          <button >React Js</button>
+          <button >Node.js</button>
+          <button >Express</button>
+          <button >Git hub</button>
+          <button >C#</button>
+          <button >PHP</button>
+          <button >Kotlin - android</button>
+          <button >Swift - Ios</button>
+          <button >React Native</button>
+          <button >Angular</button>
+          <button >Ionic</button>
+          <button >Phongap</button>
+          <button >Apache Cordova</button>
+          <button >MySql</button>
+          <button >MariaDB</button>
+          <button >Oracle 11g</button>
+          <button >PostgreSQL</button>
+          <button >Sql Server</button>
+          <button >Azure - Front Door</button>
+          <button >Azure - Pipellines CI-CD</button>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Interesado en trabajar juntos? ¡Contáctame!</p>
+        <ul>
+          <li>
+            Email:
+            <a
+              href="mailto:andres.lopez7890@gmail.com"
+              target="_blank"
+              class="linkEdit"
+              >andres.lopez7890@gmail.com</a
+            >
+          </li>
+          <li>
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/andresfernandolopezrodriguez128213b5/"
+              target="_blank"
+              class="linkEdit"
+              >linkedin.com/in/andreslopez</a
+            >
+          </li>
+          <li>
+            GitHub:
+            <a
+              href="https://github.com/andres78901"
+              class="linkEdit"
+              target="_blank"
+              >github.com/andres78901</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Andres Lopez. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+      // Animación suave del scroll
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
         });
       });
-    });
 
-    // Animación de las tarjetas de proyectos
-    const projectCards = document.querySelectorAll('.project-card');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.style.opacity = 1;
-          entry.target.style.transform = 'translateY(0)';
-        }
+      // Animación de las tarjetas de proyectos
+      const projectCards = document.querySelectorAll(".project-card");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.style.opacity = 1;
+              entry.target.style.transform = "translateY(0)";
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+
+      projectCards.forEach((card) => {
+        card.style.opacity = 0;
+        card.style.transform = "translateY(20px)";
+        card.style.transition = "opacity 0.5s ease, transform 0.5s ease";
+        observer.observe(card);
       });
-    }, { threshold: 0.1 });
-
-    projectCards.forEach(card => {
-      card.style.opacity = 0;
-      card.style.transform = 'translateY(20px)';
-      card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-      observer.observe(card);
-    });
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
