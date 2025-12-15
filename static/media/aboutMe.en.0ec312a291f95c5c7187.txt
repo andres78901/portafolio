@@ -1,0 +1,23 @@
+Systems Engineer with extensive experience in designing, developing
+and implementing advanced technological solutions. Specialized
+in cloud platforms, with expertise in Microsoft Azure, including
+backend application development and microservices implementation.
+
+I have solid experience in application administration
+such as SharePoint, virtual machine and container management, as
+well as process automation in operating systems
+(Windows Server and Linux) and in defining CI/CD flows and
+artifact management in Azure.
+
+I am competent in a wide variety of programming languages,
+including PHP, C#, Node.js, Java, Kotlin, Swift (iOS), Apache
+Cordova, React Native and Angular (including Ionic). Additionally, I possess a
+deep knowledge of relational databases such as Oracle,
+PostgreSQL, MySQL and MariaDB.
+
+I am characterized by a strong focus on results-oriented approach,
+continuous innovation and analytical capability, always aligned
+with continuous improvement and high commitment to quality
+customer service. Familiar with agile methodologies such as
+Scrum, I have demonstrated my ability to lead, collaborate and grow
+custom software projects to meet business needs.
