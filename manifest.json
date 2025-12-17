@@ -1,11 +1,13 @@
 {
   "short_name": "Portafolio AL",
-  "name": "Andrés López - Portafolio",
+  "name": "Andrés López - Portafolio | Desarrollador Full Stack",
+  "description": "Portafolio profesional de Andrés López - Desarrollador Full Stack especializado en React, Node.js, Azure y desarrollo móvil",
   "icons": [
     {
       "src": "favicon.svg",
       "sizes": "any",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     },
     {
       "src": "favicon-32x32.png",
@@ -36,5 +38,13 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#667eea",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["portfolio", "developer", "technology"],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
 }
